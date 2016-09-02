@@ -44,6 +44,9 @@
   font-style: italic;
 }
 
+.textright {
+  float:right;
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
