@@ -26,8 +26,8 @@
 /* Position the "next button" to the right */
 .next {
   /*right: 0;*/
-  padding: 0px 0px 20px 0px;
-  border-radius: 3px 0 0 3px;
+  padding: 0px 0px 0px 20px;
+  
 }
 
 /* On hover, add a black background color with a little bit see-through */
