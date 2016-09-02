@@ -75,7 +75,7 @@ html {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.1rem;
 }
 
 /* About section */
@@ -86,7 +86,7 @@ html {
   font-size: 1.25rem;
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 2rem;
+  
 }
 
 /* Sidebar nav */
@@ -128,7 +128,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    0rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
