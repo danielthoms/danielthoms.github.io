@@ -112,9 +112,14 @@ a.sidebar-nav-item:focus {
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
+.sidebar-sticky {
+  display: none;
+}
+
 
 @media (min-width: 48em) {
   .sidebar-sticky {
+    display: inline;
     position: absolute;
     right:  1rem;
     bottom: 1rem;
@@ -130,6 +135,11 @@ footer {
   font-size: 14px;
 }
 
+@media (min-width: 48em) {
+  footer {
+    display: none;
+  }
+}
 
 
 /* Container
