@@ -13,7 +13,7 @@
   top: 50%;*/
   width: auto;
   /*margin-top: -22px;*/
-  padding: 0px 20px 0px 0px;
+  padding: 0px 25px 0px 0px;
   color: black;
   /*font-weight: bold;*/
   font-size: 1rem;
@@ -26,13 +26,13 @@
 /* Position the "next button" to the right */
 .next {
   /*right: 0;*/
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 25px;
   
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.2);
+  /*background-color: rgba(0,0,0,0.2);*/
 }
 
 /* Caption text */
