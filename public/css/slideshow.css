@@ -11,6 +11,7 @@ text-align:center;
 display:block;
 }
 
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -93,6 +94,11 @@ display:block;
   -webkit-animation-duration: 2.5s;
   animation-name: fade;
   animation-duration: 2.5s;
+}
+
+.mySlides img {
+  height: 700px;
+}
 }
 
 @-webkit-keyframes fade {
