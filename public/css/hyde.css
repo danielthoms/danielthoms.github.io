@@ -146,6 +146,7 @@ footer {
     max-width: 1rem;
     min-width: 1rem;
     display:inline;
+    float: left;
     
   }
 
