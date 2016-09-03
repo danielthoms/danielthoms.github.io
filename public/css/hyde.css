@@ -142,10 +142,11 @@ footer {
 }
 
 .socialmedia-icon {
-    min-height: 20px;
-    max-width: 20px;
-    min-width: 20px;
+   
+    max-width: 1rem;
+    min-width: 1rem;
     display:inline;
+    
   }
 
 /* Container
