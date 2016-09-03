@@ -6,7 +6,7 @@ function circleSlides() {
   plusSlides(1);
 }
 
-function plusSlides(n) {
+function plusAuSlides(n) {
   showSlides(slideIndex += n);
 }
 
