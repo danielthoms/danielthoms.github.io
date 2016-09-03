@@ -23,7 +23,7 @@ function circleSlides(){
 
 function plusAuSlides(n){
   var slides = document.getElementsByClassName("mySlides");
-  slideIndex+=n;
+  slideIndex++;
   if (slideIndex> slides.length) {slideIndex = 1}
   if (slideIndex< 1) {slideIndex = slides.length}
   showSlides(slideIndex += n);
