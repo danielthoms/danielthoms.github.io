@@ -3,7 +3,7 @@ var timeout;
 showSlides(slideIndex);
 
 function circleSlides() {
-  plusSlides(1);
+  plusAuSlides(1);
 }
 
 function plusAuSlides(n) {
