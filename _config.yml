@@ -7,14 +7,14 @@ permalink:        pretty
 
 # Setup
 title:            Daniel Thoms
-tagline:          'Painting Vagabond'
+tagline:          
 description:      
-url:              http://hyde.getpoole.com
+url:              https://danielthoms.github.io/
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           Daniel Thoms
+  url:            
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/danielthoms/danielthoms.github.io
