@@ -143,11 +143,10 @@ footer {
 
 .socialmedia-icon {
    
-    max-width: 1rem;
-    min-width: 1rem;
-    display:inline;
-    float: left;
-    
+    width: 1rem;
+    height: 1rem;
+    /*display:inline;*/
+   
   }
 
 /* Container
