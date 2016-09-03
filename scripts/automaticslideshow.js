@@ -12,6 +12,7 @@ function showSlides() {
 }
 
 function circleSlides(){
+    var slides = document.getElementsByClassName("mySlides");
     slideIndex++;
     if (slideIndex> slides.length) {slideIndex = 1}
     showSlides();
@@ -19,6 +20,7 @@ function circleSlides(){
 }
 
 function plusAuSlides(n)
+  var slides = document.getElementsByClassName("mySlides");
   slideIndex+=n;
   if (slideIndex> slides.length) {slideIndex = 1}
   if (slideIndex< 1) {slideIndex = slides.length}
