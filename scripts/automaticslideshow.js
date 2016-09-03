@@ -25,5 +25,5 @@ function showSlides(n) {
       slides[i].style.display = "none"; 
   }
   slides[slideIndex-1].style.display = "block"; 
-  setTimeout(circleSlides, 7000);
+  timeout = setTimeout(circleSlides, 7000);
 }
