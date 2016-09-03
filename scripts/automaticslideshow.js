@@ -19,7 +19,7 @@ function circleSlides(){
     
 }
 
-function plusAuSlides(n)
+function plusAuSlides(n){
   var slides = document.getElementsByClassName("mySlides");
   slideIndex+=n;
   if (slideIndex> slides.length) {slideIndex = 1}
