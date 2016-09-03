@@ -96,13 +96,6 @@ display:block;
   animation-duration: 2.5s;
 }
 
-.mySlides img {
-  max-height: 700px;
-  max-width: 100%;
-  width: auto;
-
-}
-
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
