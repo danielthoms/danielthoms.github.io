@@ -97,9 +97,8 @@ display:block;
 }
 
 .mySlides img {
-  height: 700px;
-  width: auto;
-}
+  max-height: 700px;
+
 }
 
 @-webkit-keyframes fade {
