@@ -58,7 +58,7 @@ html {
   padding: 2rem 1rem 1rem 1rem;
   color: black;
   background-color: white;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -84,7 +84,7 @@ html {
   color: black;
   margin-top: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
