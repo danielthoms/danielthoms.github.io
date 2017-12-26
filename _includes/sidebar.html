@@ -24,9 +24,9 @@
         {% endif %}
       {% endfor %}
      
-      <a class="sidebar-nav-item{% if page.url == "/drawings.html" %} active{% endif %}" href="{{ site.baseurl }}/drawings.html">Drawings</a>
+      {% comment %}<a class="sidebar-nav-item{% if page.url == "/drawings.html" %} active{% endif %}" href="{{ site.baseurl }}/drawings.html">Drawings</a> {% endcomment %}
       {% comment %} <a class="sidebar-nav-item{% if page.url == "/blog/" %} active{% endif %}" href="{{ site.baseurl }}/blog/">Blog</a> {% endcomment %}
-       {% comment %}<a class="sidebar-nav-item" href="http://danielthoms.tictail.com/">Shop</a> {% endcomment %}
+      {% comment %}<a class="sidebar-nav-item" href="http://danielthoms.tictail.com/">Shop</a> {% endcomment %}
       <a class="sidebar-nav-item{% if page.url == "/about.html" %} active{% endif %}" href="{{ site.baseurl }}/about.html">About</a>
       
     </nav>
@@ -37,9 +37,9 @@
        <div class="socialmedia-icon">
          <a href="https://www.instagram.com/dnl.thoms/"><img src="{{ site.baseurl }}/resources/iconmonstr-instagram-11.svg" style="width:100%"></a>
       </div>
-      <div class="socialmedia-icon">
+       {% comment %}<div class="socialmedia-icon">
          <a href="https://www.facebook.com/danielthomsart/"><img src="{{ site.baseurl }}/resources/iconmonstr-facebook-5.svg" style="width:100%"></a>
-      </div>
+      </div> {% endcomment %}
      
       <br>
       <p style="float:left; font-size: 0.8rem">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
