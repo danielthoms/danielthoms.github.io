@@ -5,7 +5,7 @@ permalink: about.html
 ---
 
 ## About
-![test]({{ "/resources/paintings/selfportdraussen.jpg" | absolute_url }})
+![test2]({{ site.baseurl }}/resources/paintings/selfportdraussen.jpg)
 
 I’m a painting vagabond. Driven by the desire to explore and grow I’m living a rather nomadic lifestyle sustaining myself by selling plein air sketches and drawing ink portraits on the street. 
 
